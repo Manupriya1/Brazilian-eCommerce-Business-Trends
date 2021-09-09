@@ -2,25 +2,25 @@
 
 In this project, I have analyzed customer orders placed between 2016-2018 from sellers on the Brazilian eCommerce platform Olist Store. From this data, I determined the number of customers by geographic region (looking at zip code prefix, city, and state), most popular products, number of repeat customers and purchases, and total purchases by date. After data cleaning and initial analysis, I used machine learning to make predictions on customer behavior, providing sellers on Olist the opportunity to increase sales and their customer base.
 
-Why we selected our topic:
+## Why I selected our topic:
 
-We chose this topic because this dataset has a range of information and analysis options available from eCommerce data and the potential it has to make predictions with machine learning models, with the information available on customers, sellers, products and geographic regions. This dataset also gave us the opportunity to use SQL joins to create new tables where we joined it on a PostgreSQL server. Our ultimate goal is to predict consumer behavior and review score from this dataset by using machine learning.
+We chose this topic because this dataset has a range of information and analysis options available from eCommerce data and the potential it has to make predictions with machine learning models, with the information available on customers, sellers, products and geographic regions. This dataset also gave me the opportunity to use SQL joins to create new tables where I joined it on a PostgreSQL server. My ultimate goal is to predict consumer behavior and review score from this dataset by using machine learning.
 
-Description of our source of data:
+## Description of the source of data:
 
-We chose the Brazilian-eCommerce dataset from Kaggle for our analysis. This dataset contains approximately 100,000 customer orders, along with corresponding files on product information and English translations of product categories originally in Portuguese. Seller names in this dataset were anonymized and replaced with Game of Thrones House names. Six files from the original Kaggle dataset were chosen for further analysis: geolocation dataset, olist_customers_dataset, olist_product_dataset, order_item_dataset, olist_orders_dataset, and product_category_name_translation.
+I chose the Brazilian-eCommerce dataset from Kaggle for the analysis. This dataset contains approximately 100,000 customer orders, along with corresponding files on product information and English translations of product categories originally in Portuguese. Seller names in this dataset were anonymized and replaced with Game of Thrones House names. Six files from the original Kaggle dataset were chosen for further analysis: geolocation dataset, olist_customers_dataset, olist_product_dataset, order_item_dataset, olist_orders_dataset, and product_category_name_translation.
 
-Data Source: https://www.kaggle.com/olistbr/brazilian-ecommerce
+### Data Source: https://www.kaggle.com/olistbr/brazilian-ecommerce
 
-Questions we hope to answer with our data:
+## Questions I hope to answer with our data:
 
-With this data, we hope to answer...
+With this data, I hope to answer:
+- What are business trends like for Olist, in general?
+- What data features impact review scores the most?
+- Can I predict review scores using machine learning?
 
-What are business trends like for Olist, in general?
-What data features impact review scores the most?
-Can we predict review scores using machine learning?
-Database
-We used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables.
+## Database
+I used Postgres to create tables in SQL. The ERD below shows connectivity among 9 tables.
 
 QuickDBD-export (1)
 
